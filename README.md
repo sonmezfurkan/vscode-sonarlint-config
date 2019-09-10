@@ -19,12 +19,12 @@ Add these lines to *settings.json* file
 > Do not forget to put your Sonar Token
 ```
 "sonarlint.connectedMode.servers":  [{
-	"serverId":  "sonarqube",
-	"serverUrl":  "https://scmqm2.deutsche-boerse.de/sonar",
-	"token":  "YOUR_TOKEN_GOES_HERE"
+  "serverId":  "sonarqube",
+  "serverUrl":  "https://scmqm2.deutsche-boerse.de/sonar",
+  "token":  "YOUR_TOKEN_GOES_HERE"
 }],
 "sonarlint.analyzerProperties":  {
-	"sonar.javascript.globals":  "sap"
+  "sonar.javascript.globals":  "sap"
 }
 ```
 ![enter image description here](https://user-images.githubusercontent.com/40820154/64610034-9f3fe800-d3ce-11e9-8176-d4f8750ce278.png)
@@ -40,8 +40,8 @@ Under *VSCode Settings*, search for sonarlint and edit ```connectedMode.Project`
 Add these lines to *settings.json* file
 ```
 "sonarlint.connectedMode.project":  {
-	"serverId":  "sonarqube",
-	"projectKey":  "sap.crm-com-co-kyc_review"
+  "serverId":  "sonarqube",
+  "projectKey":  "sap.crm-com-co-kyc_review"
 }
 ```
 > __Please be aware!__ ```sap.crm-com-co-kyc_review``` Here is just a reference to a project on Sonar, which might be changed or removed later!
