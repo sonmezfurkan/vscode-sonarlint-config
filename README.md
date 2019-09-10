@@ -33,7 +33,7 @@ Add these lines to *settings.json* file
 Under *VSCode Settings*, search for sonarlint and edit ```connectedMode.Project```
 
 > ⚠️**WARNING**: Make sure you are on Workspace settings tab!
-> ![enter image description here](https://user-images.githubusercontent.com/40820154/64610523-b29f8300-d3cf-11e9-820a-d5c72822bc9b.png =500x)
+> ![](https://user-images.githubusercontent.com/40820154/64610523-b29f8300-d3cf-11e9-820a-d5c72822bc9b.png)
 
 ![enter image description here](https://user-images.githubusercontent.com/40820154/64610174-f776ea00-d3ce-11e9-9bda-b8f88b71f20f.png)
 
