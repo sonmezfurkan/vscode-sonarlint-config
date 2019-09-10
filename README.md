@@ -16,7 +16,7 @@ Under *VSCode Settings*, search for sonarlint and edit ```connectedMode.servers`
 ![enter image description here](https://user-images.githubusercontent.com/40820154/64609726-db267d80-d3cd-11e9-84db-cc6b92212501.png)
 
 Add these lines to *settings.json* file
-> Do not forget to put your Sonar Token
+> ⚠️Do not forget to put your Sonar Token
 ```
 "sonarlint.connectedMode.servers":  [{
   "serverId":  "sonarqube",
@@ -33,6 +33,7 @@ Add these lines to *settings.json* file
 Under *VSCode Settings*, search for sonarlint and edit ```connectedMode.Project```
 
 > ⚠️**WARNING**: Make sure you are on Workspace settings tab!
+
 > ![](https://user-images.githubusercontent.com/40820154/64610523-b29f8300-d3cf-11e9-820a-d5c72822bc9b.png)
 
 ![enter image description here](https://user-images.githubusercontent.com/40820154/64610174-f776ea00-d3ce-11e9-9bda-b8f88b71f20f.png)
