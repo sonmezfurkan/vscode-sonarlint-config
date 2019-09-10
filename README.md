@@ -27,7 +27,7 @@ Add these lines to *settings.json* file
   "sonar.javascript.globals":  "sap"
 }
 ```
-> ⚠️Do not forget to put your Sonar Token
+>⚠️Do not forget to put your Sonar Token
 ```diff
 - "token": "YOUR_TOKEN_GOES_HERE"
 + "token": "V2VkIE1..."
