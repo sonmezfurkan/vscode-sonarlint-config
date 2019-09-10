@@ -41,9 +41,11 @@ Add these lines to *settings.json* file
 ```
 "sonarlint.connectedMode.project":  {
 	"serverId":  "sonarqube",
-	"projectKey":  "sap.crm-001"
+	"projectKey":  "sap.crm-com-co-kyc_review"
 }
 ```
+> __Please be aware!__ ```sap.crm-com-co-kyc_review``` Here is just a reference to a project on Sonar, which might be changed or removed later!
+
 ## Identifying Issues
 You can see the issues with the ```sonarlint``` tag on Problems tab
 
