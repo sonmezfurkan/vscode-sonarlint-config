@@ -16,7 +16,7 @@ Under *VSCode Settings*, search for sonarlint and edit ```connectedMode.servers`
 ![enter image description here](https://user-images.githubusercontent.com/40820154/64609726-db267d80-d3cd-11e9-84db-cc6b92212501.png)
 
 Add these lines to *settings.json* file
-> ⚠️Do not forget to put your Sonar Token
+
 ```
 "sonarlint.connectedMode.servers":  [{
   "serverId":  "sonarqube",
@@ -27,6 +27,12 @@ Add these lines to *settings.json* file
   "sonar.javascript.globals":  "sap"
 }
 ```
+> ⚠️Do not forget to put your Sonar Token
+```diff
+- "token": "YOUR_TOKEN_GOES_HERE"
++ "token": "V2VkIE1..."
+```
+
 ![enter image description here](https://user-images.githubusercontent.com/40820154/64610034-9f3fe800-d3ce-11e9-8176-d4f8750ce278.png)
 
 ### Configure workspace settings
